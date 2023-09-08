@@ -22,3 +22,23 @@ Values = ["Programming", "DataScience", "Cloud"]
 data_merge = dict(zip(Keys, Values))
 
 print(data_merge)  # O/P: {'Java': 'Programming', 'Python': 'DataScience', 'Azure': 'Cloud'}
+
+print(data_merge["Java"])  # we can retrieve index value of Java here . O/P: Programming
+
+del (data_merge["Azure"])  # deletes the Azure Key Value Pair
+
+print(data_merge)
+
+# List and Dictionaries inside Dictionaries
+
+inside_dict = {
+    "Name": "Jagan",
+    "Nickname": "Jagadeesh",
+    "Companies_Worked": ["TCS", "Persistent"],
+    "Tech_Stack": {"Cloud": "Azure", "Programming": ("Java", "Python"), "CICD": "Azure_Yaml",
+                   "DevOps": {"Orchestration": "Kubernetes", "Image_Builds": "Docker"}}
+}
+
+print(inside_dict["Tech_Stack"])
+
+print(inside_dict["Tech_Stack"]["DevOps"])
