@@ -22,7 +22,7 @@ Values = ["Programming", "DataScience", "Cloud"]
 data_merge = dict(zip(Keys, Values))
 
 print(data_merge)  # O/P: {'Java': 'Programming', 'Python': 'DataScience', 'Azure': 'Cloud'}
-<<<<<<< HEAD
+
 
 print(data_merge["Java"])  # we can retrieve index value of Java here . O/P: Programming
 
@@ -43,5 +43,4 @@ inside_dict = {
 print(inside_dict["Tech_Stack"])
 
 print(inside_dict["Tech_Stack"]["DevOps"])
-=======
->>>>>>> f3153f4 (New Python Code)
+
