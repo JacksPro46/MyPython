@@ -15,6 +15,8 @@ data_dict = {
 
 print(data_dict["nickname"])
 
+name_list = ["Jagadeesh", "Jagan"]
+
 # combining list and get dict by converting
 Keys = ["Java", "Python", "Azure"]
 Values = ["Programming", "DataScience", "Cloud"]
@@ -42,3 +44,27 @@ inside_dict = {
 print(inside_dict["Tech_Stack"])
 
 print(inside_dict["Tech_Stack"]["DevOps"])
+
+for i in inside_dict.keys():
+    print(inside_dict.get(i))
+
+count=0
+# for i in inside_dict:
+#     if(j==inside_dict[i]):
+#         print(i+"is available")
+
+
+# dev_resources=[]
+# for  i in resources:
+#     if i.name.endswith('dev'):
+#         dev_respources.append(i)
+
+
+#     dev_resources = [i for i in resources if i.name.endswith('dev')]
+
+
+if data_dict["nickname"] == name_list[0]:
+    print("Both are same")
+
+else:
+    print("Both are not same")

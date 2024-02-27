@@ -1,4 +1,8 @@
 ## Lists in Python defined by [] Sqaure Brackets
+## Lists are used to store multiple items in a single variable.
+## List items are ordered, changeable, and allow duplicate values.
+## List items are indexed, the first item has index [0], the second item has index [1] etc.
+
 
 list_num = [20, 30, 40, 50, 60, 70, 80]
 
