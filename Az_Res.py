@@ -2,6 +2,7 @@ import os
 
 from azure.common.credentials import ServicePrincipalCredentials
 from azure.mgmt.resource import ResourceManagementClient
+from random import random
 from azure.identity import DefaultAzureCredential
 
 subscription_id = os.environ.get(

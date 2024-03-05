@@ -36,3 +36,24 @@ for y in inside_dict.keys():
 
 for i, j in inside_dict.items():
    print(i,j)
+
+## loop with break statement
+myletter = 'Sammy'
+
+for letter in myletter:
+    if letter == 'a':
+        break
+    print(letter)
+
+## Comprehensions list
+
+comprhens_list = [x for x in myletter]
+
+print(comprhens_list)
+
+## Another Example
+
+celcius = [0, 10, 15, 20, 12]
+
+fahranhiet = [((9/5)*temp + 32) for temp in celcius if temp%2==0]
+print(fahranhiet)
